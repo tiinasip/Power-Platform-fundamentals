@@ -29,14 +29,12 @@ Rent instrument screen layout includes:
 *	Instrument Search / Scanner: Search by name or scan QR/barcode
 *	Photo & Info Display: Pull from Dataverse to show instrument condition/photo
 *	Pupil Selection: Dropdown or search by name/class
-*	Membership Check: Auto-check membership status
-  *	Show warning if not a member (disable rental submission)
+*	Membership Check: Auto-check membership status -->	Show warning if not a member (disable rental submission)
 * Start Date / Expected Return Date: Auto-populate or select
-*	Submit Button:
-**	OnSubmit:
-*** Create Rental record
-***	Set Instrument.Status = "Rented"
-***	Trigger Power Automate flow to email parents with rental agreement
+*	Submit Button:	OnSubmit:
+--> Create Rental record
+-->	Set Instrument.Status = "Rented"
+-->	Trigger Power Automate flow to email parents with rental agreement
 
 Return instrument screen layout:
 * Select rental from "active rentals" list
@@ -44,9 +42,9 @@ Return instrument screen layout:
 *	"Condition" dropdown or notes
 *	Trigger maintenance flag if needed
 *	On submit:
-**	Set Instrument.Status = "Available"
-**	Set Rental.Status = "Returned"
-** Trigger Power Automate flow to notify parents
+-->	Set Instrument.Status = "Available"
+-->	Set Rental.Status = "Returned"
+--> Trigger Power Automate flow to notify parents
 
 View rentals:
 *	Status = "Active" (can be changed to nonactive)
