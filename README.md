@@ -58,8 +58,7 @@ Other tasks:
 
 Teachers’ app is the first to be created. If seen useful, application to follow rentals through app is created for Mauku admins as well. This, however, needs to discussed first, it may be that Power BI reports are timely enough. For admins, model-driven app could created in Power Apps to manage instruments, see all rentals, update condition/status, and run reports. The model-driven apps are built directly on Dataverse and are ideal for CRUD operations (Create, Read, Update, Delete) and workflow automation. 
 
-https://github.com/tiinasip/Power-Platform-fundamentals/blob/main/Mauku_Power_Platform_Usage.jpg
-<img src="[https://github.com/tiinasip/Power-Platform-fundamentals/blob/main/Mauku_Power_Platform_Usage.jpg]" width="400">
+<img src="https://github.com/tiinasip/Power-Platform-fundamentals/blob/main/Mauku_Power_Platform_Usage.jpg" width="400">
 
 ## Invoicing, web pages and reporting
 Invoicing information flows from the registration system into Dataverse. Power BI is used to generate reports showing how many instruments are rented, how many invoices are pending, and the condition of the instruments. It also helps estimate future investment needs.
