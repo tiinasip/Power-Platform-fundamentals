@@ -30,7 +30,7 @@ Rent instrument screen layout includes:
 *	Photo & Info Display: Pull from Dataverse to show instrument condition/photo
 *	Pupil Selection: Dropdown or search by name/class
 *	Membership Check: Auto-check membership status
-**	Show warning if not a member (disable rental submission)
+  *	Show warning if not a member (disable rental submission)
 * Start Date / Expected Return Date: Auto-populate or select
 *	Submit Button:
 **	OnSubmit:
