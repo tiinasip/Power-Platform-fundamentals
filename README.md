@@ -32,19 +32,19 @@ Rent instrument screen layout includes:
 *	Membership Check: Auto-check membership status -->	Show warning if not a member (disable rental submission)
 * Start Date / Expected Return Date: Auto-populate or select
 *	Submit Button:	OnSubmit:<br/>
---> Create Rental record
--->	Set Instrument.Status = "Rented"
--->	Trigger Power Automate flow to email parents with rental agreement
+--> Create Rental record<br/>
+-->	Set Instrument.Status = "Rented"<br/>
+-->	Trigger Power Automate flow to email parents with rental agreement<br/>
 
 Return instrument screen layout:
 * Select rental from "active rentals" list
 *	Optional: Upload photo of returned instrument
 *	"Condition" dropdown or notes
 *	Trigger maintenance flag if needed
-*	On submit:
--->	Set Instrument.Status = "Available"
--->	Set Rental.Status = "Returned"
---> Trigger Power Automate flow to notify parents
+*	On submit:<br/>
+-->	Set Instrument.Status = "Available"<br/>
+-->	Set Rental.Status = "Returned"<br/>
+--> Trigger Power Automate flow to notify parents<br/>
 
 View rentals:
 *	Status = "Active" (can be changed to nonactive)
