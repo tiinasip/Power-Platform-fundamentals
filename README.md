@@ -31,7 +31,7 @@ Rent instrument screen layout includes:
 *	Pupil Selection: Dropdown or search by name/class
 *	Membership Check: Auto-check membership status -->	Show warning if not a member (disable rental submission)
 * Start Date / Expected Return Date: Auto-populate or select
-*	Submit Button:	OnSubmit:
+*	Submit Button:	OnSubmit:<br/>
 --> Create Rental record
 -->	Set Instrument.Status = "Rented"
 -->	Trigger Power Automate flow to email parents with rental agreement
