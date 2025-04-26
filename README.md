@@ -1,7 +1,20 @@
 # Power-Platform-fundamentals
-Course work for Power Platform fundamentals KAMK
-## Mauku  - Services for music classes
-### Background
+Course work for Power Platform fundamentals KAMK.
+## Power Platform fundamentals description
+An easy-to-grasp approach to programming and application development. Citizen developers may not meet the demands for professional programmers, but they can still be quite resourceful in solving simpler problems relating to their own fields of interest.
+
+In this course, we will dig deep into citizen development and explore the vast possibilities that such skills open up. Our focus will be on Microsoft Power Platform, a collection of services designed specifically for citizen developers and professionals alike.
+
+We’ll review the following Power Platform services one by one, providing you with an easily understandable, yet comprehensive summary of each of the following: Power Apps, Power Automate, Power BI, Dataverse, Power Pages, Power Virtual Agents, and AI Builder.
+
+After this course, you’ll have extensive knowledge of the possibilities and services offered by Microsoft Power Platform.
+
+No programming skills or extensive knowledge about IT terminology is required in this course. If you’re interested in Microsoft Power Platform or citizen development, this course is for you!
+
+This is the first course out of four on the Microsoft Power Platform microdegree. By completing the whole degree (8 ECTS), you’ll have all the skills and knowledge you need to start developing, creating, and managing your own Microsoft Power Platform solutions.
+
+# Mauku  - Services for music classes
+## Background
 Mauku is a music association that supports 9–15-year-old pupils enrolled in music classes at a specific elementary school. The association owns a wide variety of brass instruments, which pupils can rent. However, music teachers decide who receives an instrument, as the unrented instruments are stored at the school, and the teachers are best acquainted with each pupil’s skill level.
 
 Pupils play the rented instruments in the class orchestra, and rental contracts typically last for four years. In addition to instrument rentals, Mauku supports music events, camps, and trips.
@@ -10,7 +23,7 @@ Since Mauku can only support its members, a separate registration system is in u
 
 So far, Mauku has only used the membership registration system. While this system complies with GDPR and remains in use, processes for event registrations, instrument rentals, and member communications require improvement. Instruments are not currently registered digitally, leading to considerable manual work to track who has which instrument and its condition.
 
-### Power Platform usage 
+## Power Platform usage 
 ### Rental process – the core problem
 The project begins by creating a digital inventory of instruments. Each instrument is recorded in a Dataverse table, assigned a unique ID, and photographed. Additional information—such as age, condition, and maintenance history—is also recorded.
 
